@@ -29,14 +29,6 @@ Configure name and email for commitment user information.
 * $ git config --global user.email "[mail@email.com]"
 
 
-## SSH Key Generation
-
-* $ ssh-keygen -t rsa -b 4096 -C "[mail@emial.com]"
-* $ clip < [path_to_key]
-* $ eval "$(ssh-agent -s)"
-* $ ssh-add [path_to_key]
-
-
 ## Commit and push
 
 * $ git status == Check the status of current branch
