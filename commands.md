@@ -58,3 +58,4 @@ Configure name and email for commitment user information.
 * $ git reset HEAD~1 == Revert previous commit
 * $ git log => (SPACEBAR, Q) == List commit history
 * $ git reset --hard [commit_hash] == Change the current repository state into the target commitment state
+
