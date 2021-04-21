@@ -6,6 +6,7 @@ Some useful commands to use in command-prompt.
 ## Command-prompt
 
 * $ cls == Clear command prompt screen
+* $ clear == Clear command prompt screen
 * $ cd [path] == Change directory
 * $ mkdir [folder_name] == Create a folder
 * $ touch [filename].[file_extension] == Create file
@@ -26,6 +27,14 @@ Configure name and email for commitment user information.
 
 * $ git config --global user.name "[username]"
 * $ git config --global user.email "[mail@email.com]"
+
+
+## SSH Key Generation
+
+* $ ssh-keygen -t rsa -b 4096 -C "[mail@emial.com]"
+* $ clip < [path_to_key]
+* $ eval "$(ssh-agent -s)"
+* $ ssh-add [path_to_key]
 
 
 ## Commit and push
